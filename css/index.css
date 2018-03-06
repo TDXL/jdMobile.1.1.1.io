@@ -552,6 +552,7 @@ html,body {
     border-top: 1px solid #ccc;
     font-size: 14px;
     padding: 0 50px;
+    box-sizing: border-box;
 }
 .jdm-more .word li {
     float: left;
