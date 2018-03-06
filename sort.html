@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分类页</title>
+    <!--引入默认样式-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!--引入兼容样式'-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--引入页面样式-->
+    <link rel="stylesheet" href="./css/sort.css">
+    <!--图标-->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!--布局容器-->
+    <div class="jdm-container">
+        <!--头部-->
+        <header class="jdm-header">
+            <!--返回按钮-->
+            <a href="javascript" class="jdm-header-back"></a>
+            <!--搜索框-->
+            <div class="jdm-header-search">
+                <input type="text" placeholder="花王在日本直采，京东全球购自营">
+            </div>
+            <!--菜单按钮-->
+            <a href="javascript" class="jdm-header-menu"></a>
+            
+        </header>
+        <!--主要区域
+            左边固定 右边自适应
+            方案：flex布局
+        -->
+        <main class="jdm-main">
+            <!--侧边栏-->
+            <aside class="jdm-main-left" id="wrapper">
+                <ul>
+					<li class="active">热门推荐</li>
+					<li>潮流女装</li>
+					<li>品牌男装</li>
+					<li>个护化妆</li>
+					<li>电脑办公</li>
+					<li>手机数码</li>
+					<li>母婴童装</li>
+					<li>图书</li>
+					<li>家具家纺</li>
+					<li>居家生活</li>
+					<li>家具建材</li>
+					<li>食品生鲜</li>
+					<li>酒水饮料</li>
+					<li>运动户外</li>
+					<li>鞋靴礼品</li>
+					<li>奢侈礼品</li>
+					<li>珠宝钟表</li>
+					<li>玩具乐器</li>
+					<li>内衣配饰</li>
+					<li>汽车用品</li>
+					<li>音像制品</li>
+					<li>医药保健</li>
+					<li>计生情趣</li>
+					<li>京东金融</li>
+					<li>生活旅行</li>
+					<li>宠物农资</li>
+				</ul>
+            </aside>
+            <!--独立的节或段-->
+            <section class="jdm-main-right">
+                <!--热门推荐-->
+                <div class="jdm-main-right-recommend">
+                    <h4 class="jdm-main-right-title">热门推荐</h4>
+                    <ul>
+                        <li><a href="javascript:;">手机</a></li>
+                        <li><a href="javascript:;">笔记本</a></li>
+                        <li><a href="javascript:;">空调</a></li>
+                        <li><a href="javascript:;">收纳用品</a></li>
+                        <li><a href="javascript:;">炒锅</a></li>
+                        <li><a href="javascript:;">奶粉</a></li>
+                        <li><a href="javascript:;">吸顶灯</a></li>
+                        <li><a href="javascript:;">儿童文学</a></li>
+                    </ul>
+                </div>
+                <!--热门导购-->
+                <div class="jdm-main-right-shopping">
+                    <h4 class="jdm-main-right-title">热门导购</h4>
+                    <ul>
+                        <li><a href="javascript:;"><img src="./upload/sort_1.jpg" alt=""><span>国际品牌</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_2.jpg" alt=""><span>JD FOR</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_3.jpg" alt=""><span>精品女装</span></a></li>
+                    </ul>
+                </div>
+                <!--热卖品类-->
+                <div class="jdm-main-right-class">
+                    <h4 class="jdm-main-right-title">热卖品类</h4>
+                    <ul>
+                        <li><a href="javascript:;"><img src="./upload/sort_4.jpg" alt=""><span>连衣裙</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_5.jpg" alt=""><span>短袖T恤</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_6.jpg" alt=""><span>短袖雪纺衫</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_7.jpg" alt=""><span>白衬衫</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_8.jpg" alt=""><span>阔腿裤</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_9.jpg" alt=""><span>短裤</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_10.jpg" alt=""><span>针织开衫</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_11.jpg" alt=""><span>印花连衣裙</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_12.jpg" alt=""><span>牛仔半裙</span></a></li>
+                    </ul>
+                </div>
+                <!--裙装-->
+                <div class="jdm-main-right-skirts">
+                    <h4 class="jdm-main-right-title">裙装</h4>
+                    <ul>
+                        <li><a href="javascript:;"><img src="./upload/sort_13.jpg" alt=""><span>新品裙装</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_14.jpg" alt=""><span>印花连衣裙</span></a></li>
+                        <li><a href="javascript:;"><img src="./upload/sort_15.jpg" alt=""><span>雪纺连衣裙</span></a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./js/iscroll.js"></script>
+    <script>
+        var myScroll = new IScroll('#wrapper',{
+            mouseWheel: true,
+            scrollbars:false
+        })
+    </script>
+</body>
+</html>
